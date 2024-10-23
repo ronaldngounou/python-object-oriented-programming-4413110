@@ -1,10 +1,8 @@
 # Python Object Oriented Programming by Joe Marini course example
 # Using class-level and static methods
-
-
 class Book:
     # TODO: Properties defined at the class level are shared by all instances
-
+    # initial commit to check if it works 
     # TODO: double-underscore properties are hidden from other classes
 
     # TODO: create a class method
