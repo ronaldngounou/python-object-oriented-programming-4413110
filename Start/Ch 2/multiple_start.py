@@ -18,5 +18,9 @@ class C(A, B):
     def __init__(self):
         super().__init__()
 
+    def show_props(self):
+        print(self.prop1)
+        print(self.prop2)
 
 c = C()
+c.show_props()
