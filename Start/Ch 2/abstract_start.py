@@ -13,7 +13,7 @@ class GraphicShape(ABC):
     def __init__(self):
         super().__init__()
 
-    @abstractmethod 
+    @abstractmethod # add this method to enforce the subclasses to inherit from this method.
     def calcArea(self):
         pass
 
